@@ -26,21 +26,21 @@ hr {
   font-weight : 300;
 }
 
-.view-code-btn{
-    display: block;
-    height: 40px;
-    width: 20%;
-    margin: 30px auto;
-    border: none;
-    background-color: #3F3244;
+.view-code-btn {
+  display          : block;
+  width            : 20%;
+  height           : 40px;
+  margin           : 30px auto;
+  border           : none;
+  background-color : #3F3244;
 }
 
 .view-code-link {
-  text-decoration: none;
-  color: #FFF;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: 300;
+  color           : #FFF;
+  text-decoration : none;
+  text-transform  : uppercase;
+  font-size       : 15px;
+  font-weight     : 300;
 }
 
 .party {
@@ -48,34 +48,37 @@ hr {
 }
 
 .student-name {
-  margin-right : 10px;
+  margin-right : 50px;
   color        : #F2F2F2;
 }
 
 .acordian-title {
   display     : flex;
   margin-top  : 30px;
-  margin-left : 10px;
+  margin-left : 40px;
 }
 
-.tab-header{
-  font-weight: 600;
-  padding: 5px;
-  text-align: left;
-  margin-left: 20px;
-  font-weight: 600;
-  /*border-bottom: 1px solid black;*/
+.tab-header {
+  margin-left : 20px;
+  padding     : 5px;
+  text-align  : left;
+  font-weight : 600;
+  font-weight : 600;
+  /* border-bottom: 1px solid black; */
 }
 
-.tab-content{
-  display: inline-block;
+.tab-content {
+  display    : inline-block;
+  width      : 80%;
+  margin-top : 13px;
 }
 
 .tabs {
   display           : -webkit-box;
-  display           : -webkit-flex;
   display           : -ms-flexbox;
   display           : flex;
+  display           : -webkit-flex;
+  width             : 95%;
   margin-top        : 50px;
   margin-right      : auto;
   margin-left       : auto;
@@ -88,49 +91,44 @@ hr {
 .tabone,
 .tabthree,
 .tabtwo {
-  color       : #666666;
-  font-weight : 300;
-  width: 20%;
-  display: flex;
-  background-color: #D1D2D3;
+  display          : flex;
+  width            : 20%;
+  color            : #666666;
+  background-color : #D1D2D3;
+  font-weight      : 300;
 }
 
-.tab-text{
-  text-align: left;
-  font-size: 1.3em;
-  font-weight: 600;
-  line-height: 24px;
-  margin-left: 25px;
-  width: 50;
-  font-weight: 400;
-  flex-direction:column;
-  overflow-wrap: break-word;
-  display: flex;
-  margin-top: 50px;
+.tab-text {
+  display        : flex;
+  width          : 50;
+  margin-top     : 50px;
+  margin-left    : 25px;
+  overflow-wrap  : break-word;
+  text-align     : left;
+  font-size      : 1.3em;
+  font-weight    : 400;
+  flex-direction : column;
+  line-height    : 24px;
 }
 
 .tabs label {
-  order: 1;
-  width: 20%;
-  display: block;
-  padding: 1rem 2rem;
-  margin-right: 0.2rem;
-  cursor: pointer;
-  background: #D1D2D3;
-  -webkit-transition: background ease 0.2s;
-  transition: background ease 0.2s;
+  display            : block;
+  width              : 20%;
+  margin-right       : 0.2rem;
+  padding            : 1rem 2rem;
+  background         : #D1D2D3;
+  order              : 1;
+  -webkit-transition : background ease 0.2s;
+  transition         : background ease 0.2s;
+  cursor             : pointer;
 }
 
 .tabs .tab {
-
-  order: 99;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  display: none;
-  padding: 1rem;
-  background: #F2F2F2;
+  display    : none;
+  background : #F2F2F2;
+  flex-grow  : 1;
+  order      : 99;
+  /* -webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; */
 }
 
 .tabs input[type="radio"] {
@@ -140,9 +138,9 @@ hr {
 
 .tabs input[type="radio"]:checked + label {
   color        : #666666;
-  border-top   : 1px solid #D1D2D3;
-  border-right : 1px solid #D1D2D3;
-  border-left  : 1px solid #D1D2D3;
+  border-top   : .5px solid #D1D2D3;
+  border-right : .5px solid #D1D2D3;
+  border-left  : .5px solid #D1D2D3;
   background   : #F2F2F2;
   font-weight  : 600;
 }
@@ -152,7 +150,7 @@ hr {
 }
 
 .tab {
-  border     : 1px solid #D1D2D3;
+  border     : .5px solid #D1D2D3;
   border-top : none;
 }
 
@@ -168,10 +166,11 @@ hr {
   }
 
   .tabs {
-    display : flex;
-    flex-direction: column;
+    display        : flex;
+    flex-direction : column;
   }
-  .tab-wrap{
-    width:
+
+  .tab-wrap {
+    width : ;
   }
 }
