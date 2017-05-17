@@ -1,5 +1,7 @@
 Pattrn Party
 
+[Check it out here](https://stacimcwilliams.github.io/pattrn_party/)
+
 Project Introduction
 
 As you work on more and more projects, you’ll notice that you build variations of the same page elements many times over. We build lots of nav bars, modals, tabbed information, and other common layout structures and patterns. On large projects, we may even build the same type of elements numerous times in slightly different ways. This can quickly lead to visual inconsistencies, unclear design, and hard-to-maintain code. Small inconsistencies in implementation can become a big pain, leading to wasted time and a lot of duplication. Wouldn’t it be nice if we had a base template we could refer back to so we could get these elements built more quickly and more consistently the next time we need them? Well, good news! We can do just that using a style guide.
