@@ -309,4 +309,15 @@ li input {
     text-align: center;
   }
 
+  .nav-header .hide {
+  display: none;
+  background-color: rgba(220, 220, 220, 0.98);
+  text-align: right;
+  padding: 10px;
+}
+
+.header-section{
+  text-align: center;
+}
+
 }
