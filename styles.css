@@ -4,7 +4,7 @@ body {
                      sans-serif;
 }
 
-/*Accordian Tabs*/
+/* Accordian Tabs */
 
 .img {
   margin : 15px;
@@ -81,9 +81,9 @@ hr {
 
 .tabs {
   display           : -webkit-box;
-  display           : flex;
   display           : -webkit-flex;
   display           : -ms-flexbox;
+  display           : flex;
   width             : 95%;
   margin-top        : 50px;
   margin-right      : auto;
@@ -166,15 +166,7 @@ hr {
   margin-left  : auto;
 }
 
-/*Flexile Cards*/
-
-.flexible-section-header{
-  margin-left : 20px;
-  padding     : 5px;
-  text-align  : left;
-  font-weight : 600;
-  font-weight : 400;
-}
+/* Flexile Cards */
 
 .flexible-cards {
   display: grid;
@@ -251,29 +243,29 @@ hr {
   grid-row-end: 6;
 }
 
-/*Header*/
 
-.nav-header{
-  margin: 0 auto;
-  background-color: #D1D2D3;
-  width: 85%;
-  height: 70px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: nowrap;
+/* Header */
+
+.nav-header {
+  display          : flex;
+  width            : 85%;
+  height           : 70px;
+  margin           : 0 auto;
+  background-color : #D1D2D3;
+  align-items      : center;
+  flex-wrap        : nowrap;
+  justify-content  : space-around;
 }
 
 li input {
-  height: auto;
-  padding: 5px;
-  border: 1px solid #666666;
-  background-size: 15px;
-  text-indent: 20px;
+  height          : auto;
+  padding         : 5px;
+  border          : 1px solid #666666;
+  background-size : 15px;
+  text-indent     : 20px;
 }
 
 @media (max-width: 800px) {
-
   .tabs {
     display        : flex;
     width          : 80%;
@@ -297,27 +289,26 @@ li input {
     width : 100%;
   }
 
-  .flexible-cards{
-    display: block;
+  .flexible-cards {
+    display : block;
   }
 
-  .card{
-    margin: 20px 0px;
+  .card {
+    margin : 20px 0px;
   }
 
-  .flexible-section-header{
-    text-align: center;
+  .flexible-section-header {
+    text-align : center;
   }
 
   .nav-header .hide {
-  display: none;
-  background-color: rgba(220, 220, 220, 0.98);
-  text-align: right;
-  padding: 10px;
-}
+    display          : none;
+    padding          : 10px;
+    background-color : rgba(220, 220, 220, 0.98);
+    text-align       : right;
+  }
 
-.header-section{
-  text-align: center;
-}
-
+  .header-section {
+    text-align : center;
+  }
 }
