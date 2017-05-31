@@ -4,6 +4,12 @@ body {
                      sans-serif;
 }
 
+/*Accordian Tabs*/
+
+.img {
+  margin : 15px;
+}
+
 hr {
   width      : 80%;
   border     : none;
@@ -28,9 +34,9 @@ hr {
 
 .view-code-btn {
   display          : block;
-  width            : 20%;
-  height           : 40px;
-  margin           : 30px auto;
+  width            : 24%;
+  height           : 49px;
+  margin           : 46px auto;
   border           : none;
   background-color : #3F3244;
 }
@@ -75,9 +81,9 @@ hr {
 
 .tabs {
   display           : -webkit-box;
-  display           : -ms-flexbox;
   display           : flex;
   display           : -webkit-flex;
+  display           : -ms-flexbox;
   width             : 95%;
   margin-top        : 50px;
   margin-right      : auto;
@@ -112,11 +118,12 @@ hr {
 }
 
 .tabs label {
-  display            : block;
-  width              : 20%;
+  display            : flex;
+  width              : 19%;
   margin-right       : 0.2rem;
   padding            : 1rem 2rem;
   background         : #D1D2D3;
+  flex-direction     : column;
   order              : 1;
   -webkit-transition : background ease 0.2s;
   transition         : background ease 0.2s;
@@ -159,17 +166,147 @@ hr {
   margin-left  : auto;
 }
 
+/*Flexile Cards*/
+
+.flexible-section-header{
+  margin-left : 20px;
+  padding     : 5px;
+  text-align  : left;
+  font-weight : 600;
+  font-weight : 400;
+}
+
+.flexible-cards {
+  display: grid;
+  grid-template-columns: 33% 15px 33% 15px 33%;
+  grid-template-rows: auto 15px auto 15px auto;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  border : 1px solid #D1D2D3;
+}
+
+.card-header {
+  padding       : 20px;
+  overflow      : hidden;
+  border-bottom : 1px solid #D1D2D3;
+  text-overflow : ellipsis;
+  font-weight   : 600;
+  white-space   : nowrap;
+}
+
+.card-image {
+  background-image : url("https://images7.alphacoders.com/413/413380.jpg");
+  background-size  : cover;
+  height           : 200px;
+}
+.one {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.two {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.three {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.four {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.five {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.six {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.seven {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+/*Header*/
+
+.nav-header{
+  margin: 0 auto;
+  background-color: #D1D2D3;
+  width: 85%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+li input {
+  height: auto;
+  padding: 5px;
+  border: 1px solid #666666;
+  background-size: 15px;
+  text-indent: 20px;
+}
+
 @media (max-width: 800px) {
-  body {
-    background-color : blue;
-  }
 
   .tabs {
     display        : flex;
+    width          : 80%;
     flex-direction : column;
   }
 
   .tab-wrap {
-    width : ;
+    display         : flex;
+    width           : 100%;
+    justify-content : center;
   }
+
+  .tab-header {
+    height          : 100px;
+    text-align      : center;
+    flex-direction  : column;
+    justify-content : center;
+  }
+
+  .tabone {
+    width : 100%;
+  }
+
+  .flexible-cards{
+    display: block;
+  }
+
+  .card{
+    margin: 20px 0px;
+  }
+
+  .flexible-section-header{
+    text-align: center;
+  }
+
 }
