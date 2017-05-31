@@ -168,6 +168,11 @@ hr {
 
 /* Flexile Cards */
 
+.flexible-section-header{
+  margin-top  : 30px;
+  margin-left : 40px;
+}
+
 .flexible-cards {
   display: grid;
   grid-template-columns: 33% 15px 33% 15px 33%;
@@ -245,6 +250,11 @@ hr {
 
 
 /* Header */
+
+.nav-header-section{
+  margin-top  : 30px;
+  margin-left : 40px;
+}
 
 .nav-header {
   display          : flex;
